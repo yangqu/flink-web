@@ -68,6 +68,15 @@ Principles](#general-guiding-principles).
   struggling to complete an action, using words like _quick_ or _easy_ can lead
   to a poor documentation experience.
 
+* **Avoid using uppercase words** to highlight or emphasize statements.
+  Highlighting key words with e.g. **bold** or _italic_ font usually appears more polite.
+  If you want to draw attention to important but not obvious statements,
+  try to group them into separate paragraphs starting with a label,
+  highlighted with a corresponding HTML tag:
+  * `<span class="label label-info">Note</span>`
+  * `<span class="label label-warning">Warning</span>`
+  * `<span class="label label-danger">Danger</span>`
+
 ### Using Flink-specific Terms
 
 Use clear definitions of terms or provide additional instructions on what
@@ -82,7 +91,7 @@ opening a pull-request.
 ## Repository
 
 Markdown files (.md) should have a short name that summarizes the topic
-covered, spelled in **lowercase** and with **underscores** separating the
+covered, spelled in **lowercase** and with **dashes (-)** separating the
 words. The Chinese version file should have the same name as the English
 version, but suffixed with **.zh.md**.
 
@@ -336,13 +345,11 @@ overwriting.
   [Link Text](#heading-title) 
   ```
 
-* **Links to other pages of the Flink documentation.** The base relative path
-  to the domain of the documentation is available as a configuration variable
-  named `baseurl`.
+* **Links to other pages of the Flink documentation.**
 
   {% raw %}
   ```liquid 
-  [Link Text]({{ site.baseurl }}{% link path/to/link-page.md %})
+  [Link Text]({% link path/to/link-page.md %})
   ```
   {% endraw %}
 
