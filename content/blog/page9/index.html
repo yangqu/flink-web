@@ -10,7 +10,7 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/flink.css">
     <link rel="stylesheet" href="/css/syntax.css">
 
@@ -92,8 +92,8 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Getting Started<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12/try-flink/index.html" target="_blank">With Flink <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
-                <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-release-2.2/getting-started/project-setup.html" target="_blank">With Flink Stateful Functions <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
+                <li><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.13//docs/try-flink/local_installation/" target="_blank">With Flink <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
+                <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-release-3.0/getting-started/project-setup.html" target="_blank">With Flink Stateful Functions <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
                 <li><a href="/training.html">Training Course</a></li>
               </ul>
             </li>
@@ -102,9 +102,9 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Documentation<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12" target="_blank">Flink 1.12 (Latest stable release) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
+                <li><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.13" target="_blank">Flink 1.13 (Latest stable release) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
                 <li><a href="https://ci.apache.org/projects/flink/flink-docs-master" target="_blank">Flink Master (Latest Snapshot) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
-                <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-release-2.2" target="_blank">Flink Stateful Functions 2.2 (Latest stable release) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
+                <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-release-3.0" target="_blank">Flink Stateful Functions 3.0 (Latest stable release) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
                 <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-master" target="_blank">Flink Stateful Functions Master (Latest Snapshot) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
               </ul>
             </li>
@@ -153,6 +153,12 @@
 
           </ul>
 
+          <style>
+            .smalllinks:link {
+              display: inline-block !important; background: none; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; min-width: 75px;
+            }
+          </style>
+
           <ul class="nav navbar-nav navbar-bottom">
           <hr />
 
@@ -162,16 +168,15 @@
             <!-- Visualizer -->
             <li class=" hidden-md hidden-sm"><a href="/visualizer/" target="_blank">Plan Visualizer <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
 
+            <li >
+                  <a href="/security.html">Flink Security</a>
+            </li>
+
           <hr />
 
             <li><a href="https://apache.org" target="_blank">Apache Software Foundation <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
 
             <li>
-              <style>
-                .smalllinks:link {
-                  display: inline-block !important; background: none; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; min-width: 75px;
-                }
-              </style>
 
               <a class="smalllinks" href="https://www.apache.org/licenses/" target="_blank">License</a> <small><span class="glyphicon glyphicon-new-window"></span></small>
 
@@ -196,148 +201,153 @@
     <!-- Blog posts -->
     
     <article>
-      <h2 class="blog-title"><a href="/news/2018/03/15/release-1.3.3.html">Apache Flink 1.3.3 Released</a></h2>
+      <h2 class="blog-title"><a href="/news/2018/12/26/release-1.5.6.html">Apache Flink 1.5.6 Released</a></h2>
 
-      <p>15 Mar 2018
+      <p>26 Dec 2018
       </p>
 
-      <p><p>The Apache Flink community released the third bugfix version of the Apache Flink 1.3 series.</p>
+      <p><p>The Apache Flink community released the sixth and last bugfix version of the Apache Flink 1.5 series.</p>
 
 </p>
 
-      <p><a href="/news/2018/03/15/release-1.3.3.html">Continue reading &raquo;</a></p>
+      <p><a href="/news/2018/12/26/release-1.5.6.html">Continue reading &raquo;</a></p>
     </article>
 
     <hr>
     
     <article>
-      <h2 class="blog-title"><a href="/news/2018/03/08/release-1.4.2.html">Apache Flink 1.4.2 Released</a></h2>
+      <h2 class="blog-title"><a href="/news/2018/12/22/release-1.6.3.html">Apache Flink 1.6.3 Released</a></h2>
 
-      <p>08 Mar 2018
+      <p>22 Dec 2018
       </p>
 
-      <p><p>The Apache Flink community released the second bugfix version of the Apache Flink 1.4 series.</p>
+      <p><p>The Apache Flink community released the third bugfix version of the Apache Flink 1.6 series.</p>
 
 </p>
 
-      <p><a href="/news/2018/03/08/release-1.4.2.html">Continue reading &raquo;</a></p>
+      <p><a href="/news/2018/12/22/release-1.6.3.html">Continue reading &raquo;</a></p>
     </article>
 
     <hr>
     
     <article>
-      <h2 class="blog-title"><a href="/features/2018/03/01/end-to-end-exactly-once-apache-flink.html">An Overview of End-to-End Exactly-Once Processing in Apache Flink (with Apache Kafka, too!)</a></h2>
+      <h2 class="blog-title"><a href="/news/2018/12/21/release-1.7.1.html">Apache Flink 1.7.1 Released</a></h2>
 
-      <p>01 Mar 2018
-       Piotr Nowojski (<a href="https://twitter.com/PiotrNowojski">@PiotrNowojski</a>) &amp; Mike Winters (<a href="https://twitter.com/wints">@wints</a>)</p>
-
-      <p>Flink 1.4.0 introduced a new feature that makes it possible to build end-to-end exactly-once applications with Flink and data sources and sinks that support transactions.</p>
-
-      <p><a href="/features/2018/03/01/end-to-end-exactly-once-apache-flink.html">Continue reading &raquo;</a></p>
-    </article>
-
-    <hr>
-    
-    <article>
-      <h2 class="blog-title"><a href="/news/2018/02/15/release-1.4.1.html">Apache Flink 1.4.1 Released</a></h2>
-
-      <p>15 Feb 2018
+      <p>21 Dec 2018
       </p>
 
-      <p><p>The Apache Flink community released the first bugfix version of the Apache Flink 1.4 series.</p>
+      <p><p>The Apache Flink community released the first bugfix version of the Apache Flink 1.7 series.</p>
 
 </p>
 
-      <p><a href="/news/2018/02/15/release-1.4.1.html">Continue reading &raquo;</a></p>
+      <p><a href="/news/2018/12/21/release-1.7.1.html">Continue reading &raquo;</a></p>
     </article>
 
     <hr>
     
     <article>
-      <h2 class="blog-title"><a href="/features/2018/01/30/incremental-checkpointing.html">Managing Large State in Apache Flink: An Intro to Incremental Checkpointing</a></h2>
+      <h2 class="blog-title"><a href="/news/2018/11/30/release-1.7.0.html">Apache Flink 1.7.0 Release Announcement</a></h2>
 
-      <p>30 Jan 2018
-       Stefan Ricther (<a href="https://twitter.com/StefanRRicther">@StefanRRicther</a>) &amp; Chris Ward (<a href="https://twitter.com/chrischinch">@chrischinch</a>)</p>
+      <p>30 Nov 2018
+       Till Rohrmann (<a href="https://twitter.com/stsffap">@stsffap</a>)</p>
 
-      <p>Flink 1.3.0 introduced incremental checkpointing, making it possible for applications with large state to generate checkpoints more efficiently.</p>
-
-      <p><a href="/features/2018/01/30/incremental-checkpointing.html">Continue reading &raquo;</a></p>
-    </article>
-
-    <hr>
-    
-    <article>
-      <h2 class="blog-title"><a href="/news/2017/12/21/2017-year-in-review.html">Apache Flink in 2017: Year in Review</a></h2>
-
-      <p>21 Dec 2017
-       Chris Ward (<a href="https://twitter.com/chrischinch">@chrischinch</a>) &amp; Mike Winters (<a href="https://twitter.com/wints">@wints</a>)</p>
-
-      <p>As 2017 comes to a close, let's take a moment to look back on the Flink community's great work during the past year.</p>
-
-      <p><a href="/news/2017/12/21/2017-year-in-review.html">Continue reading &raquo;</a></p>
-    </article>
-
-    <hr>
-    
-    <article>
-      <h2 class="blog-title"><a href="/news/2017/12/12/release-1.4.0.html">Apache Flink 1.4.0 Release Announcement</a></h2>
-
-      <p>12 Dec 2017
-       Aljoscha Krettek (<a href="https://twitter.com/aljoscha">@aljoscha</a>) &amp; Mike Winters (<a href="https://twitter.com/wints">@wints</a>)</p>
-
-      <p><p>The Apache Flink community is pleased to announce the 1.4.0 release. Over the past 5 months, the
-Flink community has been working hard to resolve more than 900 issues. See the <a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12315522&amp;version=12340533">complete changelog</a>
-for more detail.</p>
+      <p><p>The Apache Flink community is pleased to announce Apache Flink 1.7.0. 
+The latest release includes more than 420 resolved issues and some exciting additions to Flink that we describe in the following sections of this post. 
+Please check the <a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12315522&amp;version=12343585">complete changelog</a> for more details.</p>
 
 </p>
 
-      <p><a href="/news/2017/12/12/release-1.4.0.html">Continue reading &raquo;</a></p>
+      <p><a href="/news/2018/11/30/release-1.7.0.html">Continue reading &raquo;</a></p>
     </article>
 
     <hr>
     
     <article>
-      <h2 class="blog-title"><a href="/news/2017/11/22/release-1.4-and-1.5-timeline.html">Looking Ahead to Apache Flink 1.4.0 and 1.5.0</a></h2>
+      <h2 class="blog-title"><a href="/news/2018/10/29/release-1.6.2.html">Apache Flink 1.6.2 Released</a></h2>
 
-      <p>22 Nov 2017
-       Stephan Ewen (<a href="https://twitter.com/StephanEwen">@StephanEwen</a>), Aljoscha Krettek (<a href="https://twitter.com/aljoscha">@aljoscha</a>), &amp; Mike Winters (<a href="https://twitter.com/wints">@wints</a>)</p>
-
-      <p><p>The Apache Flink 1.4.0 release is on track to happen in the next couple of weeks, and for all of the
-readers out there who haven’t been following the release discussion on <a href="http://flink.apache.org/community.html#mailing-lists">Flink’s developer mailing
-list</a>, we’d like to provide some details on
-what’s coming in Flink 1.4.0 as well as a preview of what the Flink community will save for 1.5.0.</p>
-
-</p>
-
-      <p><a href="/news/2017/11/22/release-1.4-and-1.5-timeline.html">Continue reading &raquo;</a></p>
-    </article>
-
-    <hr>
-    
-    <article>
-      <h2 class="blog-title"><a href="/news/2017/08/05/release-1.3.2.html">Apache Flink 1.3.2 Released</a></h2>
-
-      <p>05 Aug 2017
+      <p>29 Oct 2018
       </p>
 
-      <p><p>The Apache Flink community released the second bugfix version of the Apache Flink 1.3 series.</p>
+      <p><p>The Apache Flink community released the second bugfix version of the Apache Flink 1.6 series.</p>
 
 </p>
 
-      <p><a href="/news/2017/08/05/release-1.3.2.html">Continue reading &raquo;</a></p>
+      <p><a href="/news/2018/10/29/release-1.6.2.html">Continue reading &raquo;</a></p>
     </article>
 
     <hr>
     
     <article>
-      <h2 class="blog-title"><a href="/features/2017/07/04/flink-rescalable-state.html">A Deep Dive into Rescalable State in Apache Flink</a></h2>
+      <h2 class="blog-title"><a href="/news/2018/10/29/release-1.5.5.html">Apache Flink 1.5.5 Released</a></h2>
 
-      <p>04 Jul 2017 by Stefan Richter (<a href="https://twitter.com/">@StefanRRichter</a>)
+      <p>29 Oct 2018
       </p>
 
-      <p><p>A primer on stateful stream processing and an in-depth walkthrough of rescalable state in Apache Flink.</p></p>
+      <p><p>The Apache Flink community released the fifth bugfix version of the Apache Flink 1.5 series.</p>
 
-      <p><a href="/features/2017/07/04/flink-rescalable-state.html">Continue reading &raquo;</a></p>
+</p>
+
+      <p><a href="/news/2018/10/29/release-1.5.5.html">Continue reading &raquo;</a></p>
+    </article>
+
+    <hr>
+    
+    <article>
+      <h2 class="blog-title"><a href="/news/2018/09/20/release-1.6.1.html">Apache Flink 1.6.1 Released</a></h2>
+
+      <p>20 Sep 2018
+      </p>
+
+      <p><p>The Apache Flink community released the first bugfix version of the Apache Flink 1.6 series.</p>
+
+</p>
+
+      <p><a href="/news/2018/09/20/release-1.6.1.html">Continue reading &raquo;</a></p>
+    </article>
+
+    <hr>
+    
+    <article>
+      <h2 class="blog-title"><a href="/news/2018/09/20/release-1.5.4.html">Apache Flink 1.5.4 Released</a></h2>
+
+      <p>20 Sep 2018
+      </p>
+
+      <p><p>The Apache Flink community released the fourth bugfix version of the Apache Flink 1.5 series.</p>
+
+</p>
+
+      <p><a href="/news/2018/09/20/release-1.5.4.html">Continue reading &raquo;</a></p>
+    </article>
+
+    <hr>
+    
+    <article>
+      <h2 class="blog-title"><a href="/news/2018/08/21/release-1.5.3.html">Apache Flink 1.5.3 Released</a></h2>
+
+      <p>21 Aug 2018
+      </p>
+
+      <p><p>The Apache Flink community released the third bugfix version of the Apache Flink 1.5 series.</p>
+
+</p>
+
+      <p><a href="/news/2018/08/21/release-1.5.3.html">Continue reading &raquo;</a></p>
+    </article>
+
+    <hr>
+    
+    <article>
+      <h2 class="blog-title"><a href="/news/2018/08/09/release-1.6.0.html">Apache Flink 1.6.0 Release Announcement</a></h2>
+
+      <p>09 Aug 2018
+       Till Rohrmann (<a href="https://twitter.com/stsffap">@stsffap</a>)</p>
+
+      <p><p>The Apache Flink community is proud to announce the 1.6.0 release. Over the past 2 months, the Flink community has worked hard to resolve more than 360 issues. Please check the <a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12315522&amp;version=12342760">complete changelog</a> for more details.</p>
+
+</p>
+
+      <p><a href="/news/2018/08/09/release-1.6.0.html">Continue reading &raquo;</a></p>
     </article>
 
     <hr>
@@ -352,7 +362,7 @@ what’s coming in Flink 1.4.0 as well as a preview of what the Flink community 
       
       </li>
       <li>
-        <span class="page_number ">Page: 9 of 14</span>
+        <span class="page_number ">Page: 9 of 16</span>
       </li>
       <li>
       
@@ -370,9 +380,144 @@ what’s coming in Flink 1.4.0 as well as a preview of what the Flink community 
       
 
       
-    <h2>2020</h2>
+    <h2>2021</h2>
 
     <ul id="markdown-toc">
+      
+      <li><a href="/2021/05/06/reactive-mode.html">Scaling Flink automatically with Reactive Mode</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/05/03/release-1.13.0.html">Apache Flink 1.13.0 Release Announcement</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/04/29/release-1.12.3.html">Apache Flink 1.12.3 Released</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/04/15/release-statefun-3.0.0.html">Stateful Functions 3.0.0: Remote Functions Front and Center</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/2021/03/11/batch-execution-mode.html">A Rundown of Batch Execution Mode in the DataStream API</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/03/03/release-1.12.2.html">Apache Flink 1.12.2 Released</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/2021/02/10/native-k8s-with-ha.html">How to natively deploy Flink on Kubernetes with High-Availability (HA)</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/01/29/release-1.10.3.html">Apache Flink 1.10.3 Released</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/01/19/release-1.12.1.html">Apache Flink 1.12.1 Released</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/2021/01/18/rocksdb.html">Using RocksDB State Backend in Apache Flink: When and How</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/01/11/batch-fine-grained-fault-tolerance.html">Exploring fine-grained recovery of bounded data sets on Flink</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/2021/01/07/pulsar-flink-connector-270.html">What's New in the Pulsar Flink Connector 2.7.0</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/01/02/release-statefun-2.2.2.html">Stateful Functions 2.2.2 Release Announcement</a></li>
+
+      
+        
+    </ul>
+        <hr>
+        <h2>2020</h2>
+    <ul id="markdown-toc">
+        
+      
+    
+      
+      
+
       
       <li><a href="/news/2020/12/18/release-1.11.3.html">Apache Flink 1.11.3 Released</a></li>
 
@@ -1789,7 +1934,7 @@ what’s coming in Flink 1.4.0 as well as a preview of what the Flink community 
 
     <div class="row">
       <div class="footer text-center col-sm-12">
-        <p>Copyright © 2014-2019 <a href="http://apache.org">The Apache Software Foundation</a>. All Rights Reserved.</p>
+        <p>Copyright © 2014-2021 <a href="http://apache.org">The Apache Software Foundation</a>. All Rights Reserved.</p>
         <p>Apache Flink, Flink®, Apache®, the squirrel logo, and the Apache feather logo are either registered trademarks or trademarks of The Apache Software Foundation.</p>
         <p><a href="/privacy-policy.html">Privacy Policy</a> &middot; <a href="/blog/feed.xml">RSS feed</a></p>
       </div>
@@ -1797,8 +1942,8 @@ what’s coming in Flink 1.4.0 as well as a preview of what the Flink community 
     </div><!-- /.container -->
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+    <script src="/js/jquery.matchHeight-min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/codetabs.js"></script>
     <script src="/js/stickysidebar.js"></script>
 

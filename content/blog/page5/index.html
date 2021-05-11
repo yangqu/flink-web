@@ -10,7 +10,7 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/flink.css">
     <link rel="stylesheet" href="/css/syntax.css">
 
@@ -92,8 +92,8 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Getting Started<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12/try-flink/index.html" target="_blank">With Flink <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
-                <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-release-2.2/getting-started/project-setup.html" target="_blank">With Flink Stateful Functions <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
+                <li><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.13//docs/try-flink/local_installation/" target="_blank">With Flink <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
+                <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-release-3.0/getting-started/project-setup.html" target="_blank">With Flink Stateful Functions <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
                 <li><a href="/training.html">Training Course</a></li>
               </ul>
             </li>
@@ -102,9 +102,9 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Documentation<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12" target="_blank">Flink 1.12 (Latest stable release) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
+                <li><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.13" target="_blank">Flink 1.13 (Latest stable release) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
                 <li><a href="https://ci.apache.org/projects/flink/flink-docs-master" target="_blank">Flink Master (Latest Snapshot) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
-                <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-release-2.2" target="_blank">Flink Stateful Functions 2.2 (Latest stable release) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
+                <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-release-3.0" target="_blank">Flink Stateful Functions 3.0 (Latest stable release) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
                 <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-master" target="_blank">Flink Stateful Functions Master (Latest Snapshot) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
               </ul>
             </li>
@@ -153,6 +153,12 @@
 
           </ul>
 
+          <style>
+            .smalllinks:link {
+              display: inline-block !important; background: none; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; min-width: 75px;
+            }
+          </style>
+
           <ul class="nav navbar-nav navbar-bottom">
           <hr />
 
@@ -162,16 +168,15 @@
             <!-- Visualizer -->
             <li class=" hidden-md hidden-sm"><a href="/visualizer/" target="_blank">Plan Visualizer <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
 
+            <li >
+                  <a href="/security.html">Flink Security</a>
+            </li>
+
           <hr />
 
             <li><a href="https://apache.org" target="_blank">Apache Software Foundation <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
 
             <li>
-              <style>
-                .smalllinks:link {
-                  display: inline-block !important; background: none; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; min-width: 75px;
-                }
-              </style>
 
               <a class="smalllinks" href="https://www.apache.org/licenses/" target="_blank">License</a> <small><span class="glyphicon glyphicon-new-window"></span></small>
 
@@ -196,139 +201,138 @@
     <!-- Blog posts -->
     
     <article>
-      <h2 class="blog-title"><a href="/news/2020/02/07/a-guide-for-unit-testing-in-apache-flink.html">A Guide for Unit Testing in Apache Flink</a></h2>
+      <h2 class="blog-title"><a href="/news/2020/05/07/community-update.html">Flink Community Update - May'20</a></h2>
 
-      <p>07 Feb 2020
-       Kartik Khare (<a href="https://twitter.com/khare_khote">@khare_khote</a>)</p>
+      <p>07 May 2020
+       Marta Paes (<a href="https://twitter.com/morsapaes">@morsapaes</a>)</p>
 
-      <p>This post provides a detailed guide for unit testing of Apache Flink applications.</p>
+      <p>Can you smell it? It’s release month! This time around, we’re warming up for Flink 1.11 and peeping back to the past month in the Flink community — with the release of Stateful Functions 2.0, a new self-paced Flink training and some efforts to improve the Flink documentation experience.</p>
 
-      <p><a href="/news/2020/02/07/a-guide-for-unit-testing-in-apache-flink.html">Continue reading &raquo;</a></p>
+      <p><a href="/news/2020/05/07/community-update.html">Continue reading &raquo;</a></p>
     </article>
 
     <hr>
     
     <article>
-      <h2 class="blog-title"><a href="/news/2020/01/30/release-1.9.2.html">Apache Flink 1.9.2 Released</a></h2>
+      <h2 class="blog-title"><a href="/news/2020/05/04/season-of-docs.html">Applying to Google Season of Docs 2020</a></h2>
 
-      <p>30 Jan 2020
-       Hequn Cheng (<a href="https://twitter.com/HequnC">@HequnC</a>)</p>
+      <p>04 May 2020
+       Marta Paes (<a href="https://twitter.com/morsapaes">@morsapaes</a>)</p>
 
-      <p><p>The Apache Flink community released the second bugfix version of the Apache Flink 1.9 series.</p>
+      <p>The Flink community is thrilled to share that the project is applying again to Google Season of Docs (GSoD) this year! If you’re unfamiliar with the program, GSoD is a great initiative organized by Google Open Source to pair technical writers with mentors to work on documentation for open source projects. Does working shoulder to shoulder with the Flink community on documentation sound exciting? We’d love to hear from you!</p>
+
+      <p><a href="/news/2020/05/04/season-of-docs.html">Continue reading &raquo;</a></p>
+    </article>
+
+    <hr>
+    
+    <article>
+      <h2 class="blog-title"><a href="/news/2020/04/24/release-1.9.3.html">Apache Flink 1.9.3 Released</a></h2>
+
+      <p>24 Apr 2020
+       Dian Fu (<a href="https://twitter.com/DianFu11">@DianFu11</a>)</p>
+
+      <p><p>The Apache Flink community released the third bugfix version of the Apache Flink 1.9 series.</p>
 
 </p>
 
-      <p><a href="/news/2020/01/30/release-1.9.2.html">Continue reading &raquo;</a></p>
+      <p><a href="/news/2020/04/24/release-1.9.3.html">Continue reading &raquo;</a></p>
     </article>
 
     <hr>
     
     <article>
-      <h2 class="blog-title"><a href="/news/2020/01/29/state-unlocked-interacting-with-state-in-apache-flink.html">State Unlocked: Interacting with State in Apache Flink</a></h2>
+      <h2 class="blog-title"><a href="/news/2020/04/21/memory-management-improvements-flink-1.10.html">Memory Management Improvements with Apache Flink 1.10</a></h2>
 
-      <p>29 Jan 2020
-       Seth Wiesman (<a href="https://twitter.com/sjwiesman">@sjwiesman</a>)</p>
+      <p>21 Apr 2020
+       Andrey Zagrebin </p>
 
-      <p>This post discusses the efforts of the Flink community as they relate to state management in Apache Flink. We showcase some practical examples of how the different features and APIs can be utilized and cover some future ideas for new and improved ways of managing state in Apache Flink.</p>
+      <p>This post discusses the recent changes to the memory model of the Task Managers and configuration options for your Flink applications in Flink 1.10.</p>
 
-      <p><a href="/news/2020/01/29/state-unlocked-interacting-with-state-in-apache-flink.html">Continue reading &raquo;</a></p>
+      <p><a href="/news/2020/04/21/memory-management-improvements-flink-1.10.html">Continue reading &raquo;</a></p>
     </article>
 
     <hr>
     
     <article>
-      <h2 class="blog-title"><a href="/news/2020/01/15/demo-fraud-detection.html">Advanced Flink Application Patterns Vol.1: Case Study of a Fraud Detection System</a></h2>
+      <h2 class="blog-title"><a href="/news/2020/04/15/flink-serialization-tuning-vol-1.html">Flink Serialization Tuning Vol. 1: Choosing your Serializer — if you can</a></h2>
 
-      <p>15 Jan 2020
+      <p>15 Apr 2020
+       Nico Kruber </p>
+
+      <p>Serialization is a crucial element of your Flink job. This article is the first in a series of posts that will highlight Flink’s serialization stack, and looks at the different ways Flink can serialize your data types.</p>
+
+      <p><a href="/news/2020/04/15/flink-serialization-tuning-vol-1.html">Continue reading &raquo;</a></p>
+    </article>
+
+    <hr>
+    
+    <article>
+      <h2 class="blog-title"><a href="/2020/04/09/pyflink-udf-support-flink.html">PyFlink: Introducing Python Support for UDFs in Flink's Table API</a></h2>
+
+      <p>09 Apr 2020
+       Jincheng Sun (<a href="https://twitter.com/sunjincheng121">@sunjincheng121</a>) &amp; Markos Sfikas (<a href="https://twitter.com/MarkSfik">@MarkSfik</a>)</p>
+
+      <p>Flink 1.10 extends its support for Python by adding Python UDFs in PyFlink. This post explains how UDFs work in PyFlink and gives some practical examples of how to use UDFs in PyFlink.</p>
+
+      <p><a href="/2020/04/09/pyflink-udf-support-flink.html">Continue reading &raquo;</a></p>
+    </article>
+
+    <hr>
+    
+    <article>
+      <h2 class="blog-title"><a href="/news/2020/04/07/release-statefun-2.0.0.html">Stateful Functions 2.0 - An Event-driven Database on Apache Flink</a></h2>
+
+      <p>07 Apr 2020
+       Stephan Ewen (<a href="https://twitter.com/stephanewen">@stephanewen</a>)</p>
+
+      <p><p>Today, we are announcing the release of Stateful Functions (StateFun) 2.0 — the first release of Stateful Functions as part of the Apache Flink project.
+This release marks a big milestone: Stateful Functions 2.0 is not only an API update, but the <strong>first version of an event-driven database</strong> that is built on Apache Flink.</p>
+
+</p>
+
+      <p><a href="/news/2020/04/07/release-statefun-2.0.0.html">Continue reading &raquo;</a></p>
+    </article>
+
+    <hr>
+    
+    <article>
+      <h2 class="blog-title"><a href="/news/2020/04/01/community-update.html">Flink Community Update - April'20</a></h2>
+
+      <p>01 Apr 2020
+       Marta Paes (<a href="https://twitter.com/morsapaes">@morsapaes</a>)</p>
+
+      <p>While things slow down around us, the Apache Flink community is privileged to remain as active as ever. This blogpost combs through the past few months to give you an update on the state of things in Flink — from core releases to Stateful Functions; from some good old community stats to a new development blog.</p>
+
+      <p><a href="/news/2020/04/01/community-update.html">Continue reading &raquo;</a></p>
+    </article>
+
+    <hr>
+    
+    <article>
+      <h2 class="blog-title"><a href="/features/2020/03/27/flink-for-data-warehouse.html">Flink as Unified Engine for Modern Data Warehousing: Production-Ready Hive Integration</a></h2>
+
+      <p>27 Mar 2020
+       Bowen Li (<a href="https://twitter.com/Bowen__Li">@Bowen__Li</a>)</p>
+
+      <p><p>In this blog post, you will learn our motivation behind the Flink-Hive integration, and how Flink 1.10 can help modernize your data warehouse.</p>
+
+</p>
+
+      <p><a href="/features/2020/03/27/flink-for-data-warehouse.html">Continue reading &raquo;</a></p>
+    </article>
+
+    <hr>
+    
+    <article>
+      <h2 class="blog-title"><a href="/news/2020/03/24/demo-fraud-detection-2.html">Advanced Flink Application Patterns Vol.2: Dynamic Updates of Application Logic</a></h2>
+
+      <p>24 Mar 2020
        Alexander Fedulov (<a href="https://twitter.com/alex_fedulov">@alex_fedulov</a>)</p>
 
-      <p>In this series of blog posts you will learn about three powerful Flink patterns for building streaming applications.</p>
+      <p>In this series of blog posts you will learn about powerful Flink patterns for building streaming applications.</p>
 
-      <p><a href="/news/2020/01/15/demo-fraud-detection.html">Continue reading &raquo;</a></p>
-    </article>
-
-    <hr>
-    
-    <article>
-      <h2 class="blog-title"><a href="/news/2019/12/11/release-1.8.3.html">Apache Flink 1.8.3 Released</a></h2>
-
-      <p>11 Dec 2019
-       Hequn Cheng </p>
-
-      <p><p>The Apache Flink community released the third bugfix version of the Apache Flink 1.8 series.</p>
-
-</p>
-
-      <p><a href="/news/2019/12/11/release-1.8.3.html">Continue reading &raquo;</a></p>
-    </article>
-
-    <hr>
-    
-    <article>
-      <h2 class="blog-title"><a href="/news/2019/12/09/flink-kubernetes-kudo.html">Running Apache Flink on Kubernetes with KUDO</a></h2>
-
-      <p>09 Dec 2019
-       Gerred Dillon </p>
-
-      <p>A common use case for Apache Flink is streaming data analytics together with Apache Kafka, which provides a pub/sub model and durability for data streams. In this post, we demonstrate how to orchestrate Flink and Kafka with KUDO.</p>
-
-      <p><a href="/news/2019/12/09/flink-kubernetes-kudo.html">Continue reading &raquo;</a></p>
-    </article>
-
-    <hr>
-    
-    <article>
-      <h2 class="blog-title"><a href="/news/2019/11/25/query-pulsar-streams-using-apache-flink.html">How to query Pulsar Streams using Apache Flink</a></h2>
-
-      <p>25 Nov 2019
-       Sijie Guo (<a href="https://twitter.com/sijieg">@sijieg</a>) &amp; Markos Sfikas (<a href="https://twitter.com/MarkSfik">@MarkSfik</a>)</p>
-
-      <p>This blog post discusses the new developments and integrations between Apache Flink and Apache Pulsar and showcases how you can leverage Pulsar’s built-in schema to query Pulsar streams in real time using Apache Flink.</p>
-
-      <p><a href="/news/2019/11/25/query-pulsar-streams-using-apache-flink.html">Continue reading &raquo;</a></p>
-    </article>
-
-    <hr>
-    
-    <article>
-      <h2 class="blog-title"><a href="/news/2019/10/18/release-1.9.1.html">Apache Flink 1.9.1 Released</a></h2>
-
-      <p>18 Oct 2019
-       Jark Wu (<a href="https://twitter.com/JarkWu">@JarkWu</a>)</p>
-
-      <p><p>The Apache Flink community released the first bugfix version of the Apache Flink 1.9 series.</p>
-
-</p>
-
-      <p><a href="/news/2019/10/18/release-1.9.1.html">Continue reading &raquo;</a></p>
-    </article>
-
-    <hr>
-    
-    <article>
-      <h2 class="blog-title"><a href="/feature/2019/09/13/state-processor-api.html">The State Processor API: How to Read, write and modify the state of Flink applications</a></h2>
-
-      <p>13 Sep 2019
-       Seth Wiesman (<a href="https://twitter.com/sjwiesman">@sjwiesman</a>) &amp; Fabian Hueske (<a href="https://twitter.com/fhueske">@fhueske</a>)</p>
-
-      <p>This post explores the State Processor API, introduced with Flink 1.9.0, why this feature is a big step for Flink, what you can use it for, how to use it and explores some future directions that align the feature with Apache Flink's evolution into a system for unified batch and stream processing.</p>
-
-      <p><a href="/feature/2019/09/13/state-processor-api.html">Continue reading &raquo;</a></p>
-    </article>
-
-    <hr>
-    
-    <article>
-      <h2 class="blog-title"><a href="/news/2019/09/11/release-1.8.2.html">Apache Flink 1.8.2 Released</a></h2>
-
-      <p>11 Sep 2019
-       Jark Wu (<a href="https://twitter.com/JarkWu">@JarkWu</a>)</p>
-
-      <p><p>The Apache Flink community released the second bugfix version of the Apache Flink 1.8 series.</p>
-
-</p>
-
-      <p><a href="/news/2019/09/11/release-1.8.2.html">Continue reading &raquo;</a></p>
+      <p><a href="/news/2020/03/24/demo-fraud-detection-2.html">Continue reading &raquo;</a></p>
     </article>
 
     <hr>
@@ -343,7 +347,7 @@
       
       </li>
       <li>
-        <span class="page_number ">Page: 5 of 14</span>
+        <span class="page_number ">Page: 5 of 16</span>
       </li>
       <li>
       
@@ -361,9 +365,144 @@
       
 
       
-    <h2>2020</h2>
+    <h2>2021</h2>
 
     <ul id="markdown-toc">
+      
+      <li><a href="/2021/05/06/reactive-mode.html">Scaling Flink automatically with Reactive Mode</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/05/03/release-1.13.0.html">Apache Flink 1.13.0 Release Announcement</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/04/29/release-1.12.3.html">Apache Flink 1.12.3 Released</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/04/15/release-statefun-3.0.0.html">Stateful Functions 3.0.0: Remote Functions Front and Center</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/2021/03/11/batch-execution-mode.html">A Rundown of Batch Execution Mode in the DataStream API</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/03/03/release-1.12.2.html">Apache Flink 1.12.2 Released</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/2021/02/10/native-k8s-with-ha.html">How to natively deploy Flink on Kubernetes with High-Availability (HA)</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/01/29/release-1.10.3.html">Apache Flink 1.10.3 Released</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/01/19/release-1.12.1.html">Apache Flink 1.12.1 Released</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/2021/01/18/rocksdb.html">Using RocksDB State Backend in Apache Flink: When and How</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/01/11/batch-fine-grained-fault-tolerance.html">Exploring fine-grained recovery of bounded data sets on Flink</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/2021/01/07/pulsar-flink-connector-270.html">What's New in the Pulsar Flink Connector 2.7.0</a></li>
+
+      
+        
+      
+    
+      
+      
+
+      
+      <li><a href="/news/2021/01/02/release-statefun-2.2.2.html">Stateful Functions 2.2.2 Release Announcement</a></li>
+
+      
+        
+    </ul>
+        <hr>
+        <h2>2020</h2>
+    <ul id="markdown-toc">
+        
+      
+    
+      
+      
+
       
       <li><a href="/news/2020/12/18/release-1.11.3.html">Apache Flink 1.11.3 Released</a></li>
 
@@ -1780,7 +1919,7 @@
 
     <div class="row">
       <div class="footer text-center col-sm-12">
-        <p>Copyright © 2014-2019 <a href="http://apache.org">The Apache Software Foundation</a>. All Rights Reserved.</p>
+        <p>Copyright © 2014-2021 <a href="http://apache.org">The Apache Software Foundation</a>. All Rights Reserved.</p>
         <p>Apache Flink, Flink®, Apache®, the squirrel logo, and the Apache feather logo are either registered trademarks or trademarks of The Apache Software Foundation.</p>
         <p><a href="/privacy-policy.html">Privacy Policy</a> &middot; <a href="/blog/feed.xml">RSS feed</a></p>
       </div>
@@ -1788,8 +1927,8 @@
     </div><!-- /.container -->
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+    <script src="/js/jquery.matchHeight-min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/codetabs.js"></script>
     <script src="/js/stickysidebar.js"></script>
 

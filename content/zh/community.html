@@ -10,7 +10,7 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/flink.css">
     <link rel="stylesheet" href="/css/syntax.css">
 
@@ -92,8 +92,8 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">教程<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12/zh/try-flink/index.html" target="_blank">With Flink <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
-                <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-release-2.2/getting-started/project-setup.html" target="_blank">With Flink Stateful Functions <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
+                <li><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.13/zh//docs/try-flink/local_installation/" target="_blank">With Flink <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
+                <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-release-3.0/getting-started/project-setup.html" target="_blank">With Flink Stateful Functions <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
                 <li><a href="/zh/training.html">Training Course</a></li>
               </ul>
             </li>
@@ -102,9 +102,9 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">文档<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12" target="_blank">Flink 1.12 (Latest stable release) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
+                <li><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.13" target="_blank">Flink 1.13 (Latest stable release) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
                 <li><a href="https://ci.apache.org/projects/flink/flink-docs-master" target="_blank">Flink Master (Latest Snapshot) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
-                <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-release-2.2" target="_blank">Flink Stateful Functions 2.2 (Latest stable release) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
+                <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-release-3.0" target="_blank">Flink Stateful Functions 3.0 (Latest stable release) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
                 <li><a href="https://ci.apache.org/projects/flink/flink-statefun-docs-master" target="_blank">Flink Stateful Functions Master (Latest Snapshot) <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
               </ul>
             </li>
@@ -150,6 +150,12 @@
 
           </ul>
 
+          <style>
+            .smalllinks:link {
+              display: inline-block !important; background: none; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; min-width: 75px;
+            }
+          </style>
+
           <ul class="nav navbar-nav navbar-bottom">
           <hr />
 
@@ -159,16 +165,15 @@
             <!-- Visualizer -->
             <li class=" hidden-md hidden-sm"><a href="/visualizer/" target="_blank">Plan Visualizer <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
 
+            <li >
+                  <a href="/zh/security.html">Flink Security</a>
+            </li>
+
           <hr />
 
             <li><a href="https://apache.org" target="_blank">Apache Software Foundation <small><span class="glyphicon glyphicon-new-window"></span></small></a></li>
 
             <li>
-              <style>
-                .smalllinks:link {
-                  display: inline-block !important; background: none; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; min-width: 75px;
-                }
-              </style>
 
               <a class="smalllinks" href="https://www.apache.org/licenses/" target="_blank">License</a> <small><span class="glyphicon glyphicon-new-window"></span></small>
 
@@ -427,7 +432,7 @@
 <p><a href="https://www.ververica.com/">Ververica</a> 目前维护了一些免费的 Apache Flink 培训。<a href="https://training.ververica.com/">培训页面</a> 有相应的演示文档和带解答的练习。当然还可以在 <a href="http://www.slideshare.net/dataArtisans/presentations">SlideShare</a> 找到所有的演示文档。</p>
 
 <h2 id="wiki">项目 Wiki</h2>
-<p>Apache Flink 的 <a href="https://cwiki.apache.org/confluence/display/FLINK/Apache+Flink+Home" target="_blank">项目 wiki</a> 包含了大量的 Flink 用户相关的资源。不过 wiki 上的资料可能会过时，如果有任何疑问，请查阅 <a href="https://ci.apache.org/projects/flink/flink-docs-release-1.12" target="_blank">Flink 文档</a></p>
+<p>Apache Flink 的 <a href="https://cwiki.apache.org/confluence/display/FLINK/Apache+Flink+Home" target="_blank">项目 wiki</a> 包含了大量的 Flink 用户相关的资源。不过 wiki 上的资料可能会过时，如果有任何疑问，请查阅 <a href="https://ci.apache.org/projects/flink/flink-docs-release-1.13" target="_blank">Flink 文档</a></p>
 
 <h2 id="flink-forward">Flink Forward</h2>
 
@@ -485,6 +490,12 @@
     <td class="text-center">hequn</td>
   </tr>
   <tr>
+      <td class="text-center"><img src="https://avatars1.githubusercontent.com/u/4950503?s=50" class="committer-avatar" /></td>
+      <td class="text-center">Danny Cranmer</td>
+      <td class="text-center">Committer</td>
+      <td class="text-center">dannycranmer</td>
+    </tr>
+  <tr>
     <td class="text-center"><img src="https://avatars3.githubusercontent.com/u/1452518?s=50" class="committer-avatar" /></td>
     <td class="text-center">Xingcan Cui</td>
     <td class="text-center">Committer</td>
@@ -519,6 +530,12 @@
     <td class="text-center">Greg Hogan</td>
     <td class="text-center">PMC, Committer</td>
     <td class="text-center">greg</td>
+  </tr>
+  <tr>
+    <td class="text-center"><img src="https://avatars1.githubusercontent.com/u/8536293?s=50" class="committer-avatar" /></td>
+    <td class="text-center">Xingbo Huang</td>
+    <td class="text-center">Committer</td>
+    <td class="text-center">hxb</td>
   </tr>
   <tr>
     <td class="text-center"><img src="https://avatars0.githubusercontent.com/u/2388347?s=50" class="committer-avatar" /></td>
@@ -748,6 +765,24 @@
         <td class="text-center">Committer</td>
         <td class="text-center">godfrey</td>
   </tr>
+  <tr>
+        <td class="text-center"><img src="https://avatars0.githubusercontent.com/u/1709104?s=50" class="committer-avatar" /></td>
+        <td class="text-center">唐云</td>
+        <td class="text-center">Committer</td>
+        <td class="text-center">tangyun</td>
+  </tr>
+  <tr>
+        <td class="text-center"><img src="https://avatars1.githubusercontent.com/u/44194288?s=50" class="committer-avatar" /></td>
+        <td class="text-center">Wei Zhong</td>
+        <td class="text-center">Committer</td>
+        <td class="text-center">weizhong</td>
+  </tr>
+  <tr>
+        <td class="text-center"><img src="https://avatars1.githubusercontent.com/u/5869249?s=50" class="committer-avatar" /></td>
+        <td class="text-center">Zhu Zhu</td>
+        <td class="text-center">PMC, Committer</td>
+        <td class="text-center">zhuzh</td>
+  </tr>
 </table>
 
 <p>可以通过 <code>&lt;apache-id&gt;@apache.org</code> 直接联系 committer。可以在 <a href="https://cwiki.apache.org/confluence/display/FLINK/List+of+contributors">这里</a> 找到所有的贡献者。</p>
@@ -818,7 +853,7 @@
 
     <div class="row">
       <div class="footer text-center col-sm-12">
-        <p>Copyright © 2014-2019 <a href="http://apache.org">The Apache Software Foundation</a>. All Rights Reserved.</p>
+        <p>Copyright © 2014-2021 <a href="http://apache.org">The Apache Software Foundation</a>. All Rights Reserved.</p>
         <p>Apache Flink, Flink®, Apache®, the squirrel logo, and the Apache feather logo are either registered trademarks or trademarks of The Apache Software Foundation.</p>
         <p><a href="/privacy-policy.html">Privacy Policy</a> &middot; <a href="/blog/feed.xml">RSS feed</a></p>
       </div>
@@ -826,8 +861,8 @@
     </div><!-- /.container -->
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+    <script src="/js/jquery.matchHeight-min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/codetabs.js"></script>
     <script src="/js/stickysidebar.js"></script>
 
